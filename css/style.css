@@ -47,12 +47,6 @@ header {
 }
 }
 
-@media screen and (max-width: 320px) {
-	.small {
-	display: none;
-}
-}
-
 section {
 	height: 960px;
 }
@@ -101,8 +95,6 @@ textarea {
 	height: 213px;
 	font-family: Helvetica, sans-serif;
 }
-
-
 
 
 .nav {
@@ -154,7 +146,7 @@ textarea {
 @media screen and (max-width: 320px) {
 	.nav li a {
 	font-size: 12px;
-	padding: 8px 8px;
+	padding: 8px 4px;
 }
 }
 
@@ -381,7 +373,7 @@ body.down header.clone {
 	}
 	
 	#img1 {
-		float: center;
+		float: none;
 		width: 140px;
 		margin-top: 60px;
 }
@@ -390,6 +382,7 @@ body.down header.clone {
 #img2 {
 	margin-left: 20%;
 	margin-top: 80px;
+	display: block;
 }
 
 @media screen and (max-width: 780px) and (min-width: 320px) {
