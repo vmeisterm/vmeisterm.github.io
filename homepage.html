@@ -17,18 +17,25 @@
 			<header class="nav">
 					<ul>
 					  <li><a href="contact.html">Contact</a></li>
-					  <li><a class="smoothScroll" href="#three">Work</a></li>
-					  <li><a class="smoothScroll" href="#about">About me</a></li>
+					  <li><a class="smoothScroll small" href="#three">Work</a></li>
+					  <li><a class="smoothScroll small" href="#about">About me</a></li>
 					  <li><a class="smoothScroll" href="#top">Hello</a></li>
 					  <li id="nom">Victor Meistermann</li>
 					</ul>
 			</header>
 			
+			<div id="overlay"></div>
+			<div id="overlayContent">
+				<img id="imgBig" src="./img/css3.png" alt="" width="400" />
+			</div>
+			
 			<section>
 			<a id="top"></a>
 				<div class="section group">
 					<div class="col span_1_of_2">
-						<img id="img1" src="./img/portfolio.png" alt="picture of me">
+						<div id="pic">
+							<img id="img1" src="./img/portfolio.png" alt="picture of me">
+						</div>
 					</div>
 					<div id="hello" class="col span_1_of_2">
 						<h1>Hello, I'm Victor.</h1>
@@ -121,7 +128,22 @@
 			</section>
 			
 			<section id="work_exp">
-				
+			
+				<a class="anchor" id="three">My Work Experiences</a>
+				<div class="section group">
+					<div class="col span_1_of_3_work exp">
+						<img id="bci" src="./img/bci.jpg" alt="BCI Project">
+						<p>Virtual Keyboard BCI Project</p>
+					</div>
+					<div class="col span_1_of_3_work exp">
+						<img src="./img/ims.jpg" alt="picture of my school">
+						<p>IMS Internship</p>
+					</div>
+					<div class="col span_1_of_3_work exp">
+						<img src="./img/bikonnect.jpg" alt="picture of my school">
+						<p>BiK'onnect Project</p>
+					</div>
+				</div>
 			</section>
 			
 		</div>
