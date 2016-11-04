@@ -388,6 +388,7 @@ body.down header.clone {
 @media screen and (max-width: 780px) and (min-width: 320px) {
 	#img2 {
 		margin-top: 60px;
+		display:none;
 }
 }
 
