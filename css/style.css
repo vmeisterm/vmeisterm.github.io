@@ -204,9 +204,6 @@ footer {
 	margin-top: 15px;
 }
 
-.exp {
-	
-}
 
 .exp img {
 	border: 1px solid #ddd;
@@ -219,6 +216,20 @@ footer {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 100px;
+}
+
+.exp2 img {
+	border: 1px solid #757575;
+	padding: 1px;
+	border-radius: 5px;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+	margin-left: 40px;
+	margin-right: 10px;
+	margin-top: 130px;
+	margin-bottom: -10px;
 }
 
 .exp p {
@@ -241,6 +252,21 @@ footer {
 	.exp p {
 		font-size: 12px;
 }
+}
+
+.desc {
+	font-size: 15px;
+	margin-top: 40px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+.desc2 {
+	font-size: 15px;
+	margin-top: 75px;
+	line-height: 25px;
+	text-align: justify;
+	margin-left: 70px;
 }
 
 .skill_tool p {
@@ -283,6 +309,12 @@ footer {
 }
 }
 
+.view p a {
+	font-size: 13px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
 a.anchor {
 	display: block;
     position: relative;
@@ -291,6 +323,7 @@ a.anchor {
 	left: 40px;
 	font-weight: bold;
 }
+
 
 header.clone {
   position: fixed;
@@ -518,6 +551,16 @@ body.down header.clone {
 	float: center;
 	text-align: center;
 	font-size: 26px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+#titre2 {
+	float: center;
+	text-align: left;
+	font-size: 20px;
 	font-weight: bold;
 	width: 100%;
 	margin-top: 100px;
